@@ -1,0 +1,35 @@
+{
+  "name": "g_img_gallery",
+  "version": "1.0.0",
+  "description": "Shutterstock type gallery very small snippet Easy to implement speed optimized and user friendly, fast loading snippet for perceived images dom manipulation gallery.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaurav-creations/g_img_gallery.git"
+  },
+  "keywords": [
+    "\"\"\u001b[Dgallery\u001b[C",
+    "\"\"\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\"\u001b[C\u001b[C\u001b[Cimage-gallery\u001b[F\u001b[D\u001b[B\u001b[C\u001b[F\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[1;5C\u001b[B\u001b[D\u001b[D\u001b[D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[D\u001b[D\u001b[1;3D\u001b[1;3D\u001b[1;3D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\"",
+    "\"\"\u001b[Dimage_gallery\"",
+    "\"shutterstock",
+    "relevant\"",
+    "\"shutterstock",
+    "gallery",
+    "resemblance\"",
+    "\"gallery",
+    "for",
+    "pros\"",
+    "\"Fast",
+    "loading",
+    "Gallery\""
+  ],
+  "author": "Gaurav Madaan github.com/gaurav-creations",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaurav-creations/g_img_gallery/issues"
+  },
+  "homepage": "https://github.com/gaurav-creations/g_img_gallery#readme"
+}
