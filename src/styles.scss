@@ -1,6 +1,54 @@
-$primary-color: white;
-$bg: black;
-h1 {
-  color: $primary-color;
-  background-color: $bg;
+.fullWidth {
+    float: left;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.g-gallery--wrapper {
+    overflow: hidden;
+}
+
+.customFull {
+    width: calc(100% + 10px);
+    float: left;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+    margin-left: -5px;
+    margin-right: -5px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: -10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &>div{	
+        order: 0;
+        flex: 1 1 auto;
+        align-self: flex-start;
+        float: left;
+        position: relative;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0;
+        margin-bottom: 10px;
+        display: inline-block;
+        float: left;
+        text-align: center;
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.customFull::after {
+    content: '';
+    flex: 99999 1 auto;
+    width: calc(100% / 4);
+    display: inline-block;
+    float: left;
 }

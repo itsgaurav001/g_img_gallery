@@ -6,11 +6,18 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
+/*var HTMLWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: __dirname + './index.html',
+  filename: 'index.html',
+  inject: 'body'
+});
+*/
 const config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].[contenthash].js'
+    filename: '[name].js',
+    sourceMapFilename: '[name].map'
   },
   module: {
     rules: [
@@ -77,10 +84,7 @@ const config = {
     new CopyPlugin({
       patterns: [{ from: 'src/index.html' }],
     }),
-    /*new HtmlWebpackPlugin({
-      appMountId: 'app',
-      filename: 'index.html'
-    }),*/
+    //new HtmlWebpackPlugin(),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
     new BundleAnalyzerPlugin({
