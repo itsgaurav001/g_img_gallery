@@ -29,7 +29,7 @@ class GFlexGalleryCustom {
     //this.ratio = ratio;
     document
       .querySelector('body')
-      .setAttribute('data-mhnew', 0.25 * window.innerHeight)
+      .setAttribute('data-mhnew', 0.375 * window.innerHeight)
     this.initiateGallery = (function () {
       let $el = document.getElementById(id)
       let elements = $el.querySelectorAll('.customGalleryItem')
@@ -50,7 +50,7 @@ class GFlexGalleryCustom {
               clearInterval(poll)
               $this.setAttribute(
                 'style',
-                `width: ${computedWidth} px; -webkit-flex: ${
+                `width: ${computedWidth}px; -webkit-flex: ${
                   w / h
                 } 1 auto; flex: ${w / h} 1 auto; -ms-flex: ${
                   w / h
