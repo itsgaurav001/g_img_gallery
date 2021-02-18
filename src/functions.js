@@ -41,7 +41,7 @@ class gFlexGalleryCustom {
                         let h = imgEle.naturalHeight;
                         if (w) {
                             clearInterval(poll);
-                            $this.style.width = `minHeight * ${(w / h)}`;
+                            $this.style.width = `(${minHeight} * ${(w / h))} px`;
                             $this.style.webkitFlex = `${(w / h)} 1 auto`;
                             $this.style.msFlex = `${(w / h)} 1 auto`;
                             $this.style.flex = `${(w / h)} 1 auto`;
