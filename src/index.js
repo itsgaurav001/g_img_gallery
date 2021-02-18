@@ -1,6 +1,8 @@
-import "./base.scss";
-import styles from "./styles.scss";
+import './base.scss'
+import './styles.scss'
 
-import gFlexGalleryCustom from "./functions.js";
+import GFlexGalleryCustom from './functions'
 
-new gFlexGalleryCustom('galleryTestWrap');
+document.addEventListener('DOMContentLoaded', function () {
+  new GFlexGalleryCustom('galleryTestWrap')
+})
