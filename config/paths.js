@@ -1,5 +1,5 @@
 const path = require('path')
-
+// commenting
 module.exports = {
   // Source files
   src: path.resolve(__dirname, '../src'),
